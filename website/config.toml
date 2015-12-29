@@ -1,0 +1,215 @@
+baseurl = "http://www.mayan-edms.org/"
+languageCode = "en-us"
+title = "Mayan EDMS"
+theme = "hugo-creative-theme"
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # All projects of the portfolio are defined in their own files.
+    # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+    # folder into the 'data' directory at the root of this Hugo site.
+    # For more informtion take a look at the README.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Mayan EDMS"
+    description = "Free Open Source Document Management System"
+
+    # The path must be relative to the static folder
+    favicon = "favicon.ico"
+
+
+    # Navigation
+    [params.navigation]
+        brand = "Mayan EDMS"
+
+        [params.navigation.links]
+            about     = "About"
+            overview  = "Overview"
+            features  = "Features"
+            providers = "Support"
+            contact   = "Contact"
+
+
+    # Hero section
+    [params.hero]
+        # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+        slogan     = "Your documents, no secrets"
+        subtitle   = "No heavy Java, no expensive servers, no platform lock-in, no eye gouging user interfaces..."
+        buttonText = "Find out more"
+
+
+    # About section
+    [params.about]
+        headline    = "What is it?"
+        description = "Mayan EDMS is a [Free Open Source](https://en.wikipedia.org/wiki/Open_source) [Electronic Document Management System](http://en.wikipedia.org/wiki/Open_source), coded in the Python language using the [Django](http://www.djangoproject.com/) web application framework and released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt). It provides an electronic vault or repository for electronic documents."
+        buttonText  = "Overview"
+
+
+    # Overview section
+    [params.overview]
+        headline = "Overview"
+
+        [[params.overview.list]]
+            icon = "fa-globe"
+            title = "Web based"
+            description = "No need to install anything on your user's computers. Forget document viewers just use the browser."
+
+        [[params.overview.list]]
+            icon = "fa-money"
+            title = "Vendor agnostic"
+            description = "Integrates with your current equipment, no need to purchase new scanners, computers or copiers."
+
+        [[params.overview.list]]
+            icon = "fa-beer"
+            title = "Free as in beer"
+            description = "No enterprise vs. community versions, every feature available from a single download."
+
+        [[params.overview.list]]
+            icon = "fa-linux"
+            title = "Free Open Source"
+            description = "No backdoors, audit the code, customize it or write your own plugins."
+
+
+    # Feature modals
+    [params.features.modal]
+        buttonText = "Close"
+
+    # Features section
+    [[params.features.list]]
+        modalID = 1
+        title = "Document versioning"
+        img = "document_versioning.png"
+        description = "Store many versions of the same document, download or revert to a previous version."
+
+    [[params.features.list]]
+        modalID = 2
+        title = "Electronic signature verification"
+        img = "signature_verification.png"
+        description = "Check the authenticity of documents by verifying their embedded cryptographic signatures or upload detached signatures for document signed after they were stored."
+
+    [[params.features.list]]
+        modalID = 3
+        title = "Fine grained permissions system"
+        img = "role_permissions.png"
+        description = "There is a permission for every atomic operation performed by users."
+
+    # Aside section
+    [params.aside]
+        headline = "Install Mayan EDMS"
+
+        [params.aside.button]
+            text = "Get started!"
+            link = "https://mayan.readthedocs.org"
+
+
+    # Contact section
+    [params.contact]
+        headline = "Get In Touch!"
+        description = ""
+
+        [[params.contact.list]]
+            icon = "fa-envelope-o"
+            text = "[info@mayan-edms.com](mailto:info@mayan-edms.com)"
+
+        [[params.contact.list]]
+            icon = "fa-twitter"
+            text = "[@MayanEDMS](https://twitter.com/@mayanedms)"
+
+        [[params.contact.list]]
+            icon = "fa-facebook"
+            text = "[MayanEDMS](https://www.facebook.com/MayanEDMS/)"
+
+        [[params.contact.list]]
+            icon = "fa-google-plus"
+            text = "[+Mayan-edms](https://plus.google.com/+Mayan-edms/)"
+
+        [[params.contact.list]]
+            icon = "fa-envelope-o"
+            text = "[Mailing List](https://groups.google.com/forum/#!forum/mayan-edms)"
+
+        [[params.contact.list]]
+            icon = "fa-youtube"
+            text = "[+Mayan-edms](https://www.youtube.com/c/+Mayan-edms)"
+
+        [[params.contact.list]]
+            icon = "fa-globe"
+            text = "[www.mayan-edms.com](http://www.mayan-edms.com)"
+
+
+    # Overview section
+    [params.providers]
+        headline = "Providers"
+        description = "While Mayan EDMS is Free Open Source, there is a growing global network of professional service and support providers ready to assist you."
+
+        [[params.providers.list]]
+            title = "creat1va"
+            address = "Santa Cruz de la Sierra,  \nBolivia"
+            contact = "TEL: +591 3 3274378  \nE-mail: contacto@creat1va.com  \nWebsite: www.creat1va.com"
+
+        [[params.providers.list]]
+            title = "Falcone IT Consulting"
+            address = "Quadra 3 Conjunto 7 T22  \nCasa 3 SHTQ  \nBrasilia, DF Brazil"
+            contact = "Tel : +055 – 61 98288075  \nWebsite: www.falconeit.com.br"
+
+        [[params.providers.list]]
+            title = "DWD&Solutions"
+            address = "Res. Primavera pje. Los Calistems #33  \nMejicanos  \nSan Salvador, El Salvador"
+            contact = "Cel: 78735118  \nE-mail: contacto@dwdandsolutions.com  \nWebsite: www.dwdandsolutions.com"
+
+        [[params.providers.list]]
+            title = "MBSolutions"
+            address = "Gilgenmatten 10 A  \nD-79114 Freiburg"
+            contact = "Tel +49 (0)761 471023  \nFax +49 (0)761 4770816  \nEmail: info@m9s.biz  \nWebsite: www.m9s.biz"
+
+        [[params.providers.list]]
+            title = "Upayog Solutions"
+            address = "IT Startup Village,  \nKINFRA Hi-tech Park,  \nOpp. Co-operative Medical College,  \nHMT Colony P.O, Kalamassery,  \nKochi – 683503"
+            contact = "Phone: +91-9497109541  \nE-mail: info@upayog-solutions.com  \nWebsite: upayog-solutions.com"
+
+        [[params.providers.list]]
+            title = "JTP Soluzioni Informatice"
+            address = "via Miranese, 426 F  \n30173 Mestre (Venezia)"
+            contact = "Tel. 041 8626205 | Fax 041 610357  \nP.I. 03807760271  \nE-mail: info@jtpnet.com  \nWebsite: www.jtpnet.com"
+
+        [[params.providers.list]]
+            title = "K-Tech S.r.l"
+            address = "Via Cristoforo Colombo,440  \n00145 – Roma  \nItalia"
+            contact = "Phone: +39.06.68301467  \nFAX: +39.06.6868105  \nE-mail: k-tech@k-tech.it  \nE-mail: staff@k-tech.it  \nE-mail: lavoro@k-tech.it  \nWebsite: www.k-tech.it"
+
+        [[params.providers.list]]
+            title = "OfficeLink sas"
+            address = "via di Dragoncello,613  \n00126 Roma Italy"
+            contact = "Tel. +39 065216278  \nFax +39 0652318179  \nE-mail: info@officelink.it  \nWebsite: www.officelink.it"
+
+        [[params.providers.list]]
+            title = "SeeOpen S.r.l."
+            address = "Via Michele Rosi, 184  \n00050 Aranova (RM)  \nNumero Verde: 800.910.125"
+            contact = "E-mail: info@seeopen.it  \nWebsite: www.seeopen.it"
+
+        [[params.providers.list]]
+            title = "SOFTLAB S.p.A"
+            address = "Via Valentino Mazzola, 66  \n00142 ROMA"
+            contact = "Tel +39 06510391  \nE-mail: direzione.commerciale@soft.it  \nWebsite: www.softlab-italia.it  \nWebsite: www.soft.it"
+
+        [[params.providers.list]]
+            title = "Cryptico Corp."
+            address = "PO Box 368159  \nSan Juan, PR 00936"
+            contact = "Tel: 787-677-1964  \nWebsite: www.crypticocorp.com"
+
+        [[params.providers.list]]
+            title = "i-Kno Knowledge Solutions (Pty) Ltd"
+            address = "Physical Address  \n476 King’s Highway  \nLynnwood  \nPretoria  \n0081  \nPostal Address  \nP O Box 11608  \nSilverlakes  \nPretoria  \n0054"
+            contact = "Email: admin@i-kno.net  \nPhone: +27 (0) 87 353-4194 or +27 (0) 12 348 4754  \nFax: +27 (0) 86 505-4592  \nWebsite: www.i-kno.net"
+
+        [[params.providers.list]]
+            title = "Quinta GROUP"
+            address = "Legal Address  \n7 Morozna Str.  \n79066 Lviv  \nUkraine  \nOffice Address  \n3b Naukova Str.  \n79060 Lviv  \nUkraine"
+            contact = "Email: info@quintagroup.com  \nPhone: +38-032-2457622  \nWebsite: www.quintagroup.com"
