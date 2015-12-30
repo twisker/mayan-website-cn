@@ -15,7 +15,7 @@ theme = "hugo-creative-theme"
     # All projects of the portfolio are defined in their own files.
     # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
     # folder into the 'data' directory at the root of this Hugo site.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
@@ -41,7 +41,7 @@ theme = "hugo-creative-theme"
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "Your documents, no secrets"
+        slogan     = "Your documents,  \nno secrets"
         subtitle   = "No heavy Java, no expensive servers, no platform lock-in, no eye gouging user interfaces..."
         buttonText = "Find out more"
 
@@ -49,7 +49,7 @@ theme = "hugo-creative-theme"
     # About section
     [params.about]
         headline    = "What is it?"
-        description = "Mayan EDMS is a [Free Open Source](https://en.wikipedia.org/wiki/Open_source) [Electronic Document Management System](http://en.wikipedia.org/wiki/Open_source), coded in the Python language using the [Django](http://www.djangoproject.com/) web application framework and released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt). It provides an electronic vault or repository for electronic documents."
+        description = "Mayan EDMS is a [Free Open Source](https://en.wikipedia.org/wiki/Open_source) [Electronic Document Management System](http://en.wikipedia.org/wiki/Open_source), coded in the Python language using the [Django](http://www.djangoproject.com/) web application framework and released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt). It provides an electronic vault or repository for your documents."
         buttonText  = "Overview"
 
 
@@ -82,6 +82,9 @@ theme = "hugo-creative-theme"
     [params.features.modal]
         buttonText = "Close"
 
+    [params.features]
+        headline = "Features"
+
     # Features section
     [[params.features.list]]
         modalID = 1
@@ -91,9 +94,9 @@ theme = "hugo-creative-theme"
 
     [[params.features.list]]
         modalID = 2
-        title = "Electronic signature verification"
-        img = "signature_verification.png"
-        description = "Check the authenticity of documents by verifying their embedded cryptographic signatures or upload detached signatures for document signed after they were stored."
+        title = "Responsive design"
+        img = "responsive.png"
+        description = "One install, many devices. Mayan EDMS uses responsive design to adjust to different screen sizes and device capabilities, from smartphones and tables to desktop."
 
     [[params.features.list]]
         modalID = 3
@@ -101,9 +104,45 @@ theme = "hugo-creative-theme"
         img = "role_permissions.png"
         description = "There is a permission for every atomic operation performed by users."
 
+    [[params.features.list]]
+        modalID = 4
+        title = "Retention policies"
+        img = "retention.png"
+        description = "Retention policies facilitate compliance with local laws or corporate policies when documents need to be disposed of in a timely manner."
+
+    [[params.features.list]]
+        modalID = 5
+        title = "Document linking and referencing"
+        img = "smart_links.png"
+        description = "Smart links are automatic, rule based links between documents for easy cross reference."
+
+    [[params.features.list]]
+        modalID = 6
+        title = "Document workflows"
+        img = "workflows.png"
+        description = "Determine the current state of a document and to which other states it can be transitioned. Document workflows provide the easiest way to mechanize your current document business processes."
+
+    [[params.features.list]]
+        modalID = 7
+        title = "REST API"
+        img = "rest_api.png"
+        description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A clientless, HTTP, self documenting, REST API is provided out of the box."
+
+    [[params.features.list]]
+        modalID = 8
+        title = "Trash can support"
+        img = "trash_can.png"
+        description = "Avoid accidental document deletion. Documents moved to the trash can be restored if the user has the corresponding permission."
+
+    [[params.features.list]]
+        modalID = 9
+        title = "Web based setup"
+        img = "setup.png"
+        description = "All functionality is accessible via a permission controlled setup panel."
+
     # Aside section
     [params.aside]
-        headline = "Install Mayan EDMS"
+        headline = "Ready to try out Mayan EDMS?"
 
         [params.aside.button]
             text = "Get started!"
@@ -132,7 +171,7 @@ theme = "hugo-creative-theme"
             text = "[+Mayan-edms](https://plus.google.com/+Mayan-edms/)"
 
         [[params.contact.list]]
-            icon = "fa-envelope-o"
+            icon = "fa-life-ring"
             text = "[Mailing List](https://groups.google.com/forum/#!forum/mayan-edms)"
 
         [[params.contact.list]]
