@@ -42,14 +42,14 @@ theme = "hugo-creative-theme"
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
         slogan     = "Your documents,  \nno secrets"
-        subtitle   = "No heavy Java, no expensive servers, no platform lock-in, no eye gouging user interfaces..."
+        subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing them?"
         buttonText = "Find out more"
 
 
     # About section
     [params.about]
         headline    = "What is it?"
-        description = "Mayan EDMS is a [Free Open Source](https://en.wikipedia.org/wiki/Open_source) [Electronic Document Management System](http://en.wikipedia.org/wiki/Open_source), coded in the Python language using the [Django](http://www.djangoproject.com/) web application framework and released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt). It provides an electronic vault or repository for your documents."
+        description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being Open Source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
         buttonText  = "Overview"
 
 
@@ -75,7 +75,7 @@ theme = "hugo-creative-theme"
         [[params.overview.list]]
             icon = "fa-linux"
             title = "Free Open Source"
-            description = "No backdoors, audit the code, customize it or write your own plugins."
+            description = "No vendor lock-in, no backdoors, audit the code, customize it or write your own plugins."
 
 
     # Feature modals
