@@ -42,7 +42,7 @@ theme = "hugo-creative-theme"
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
         slogan     = "Your documents,  \nno secrets"
-        subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing them?"
+        subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing yours?"
         buttonText = "Find out more"
 
 
