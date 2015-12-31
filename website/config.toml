@@ -126,7 +126,7 @@ theme = "hugo-creative-theme"
         modalID = 7
         title = "REST API"
         img = "rest_api.png"
-        description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A clientless, HTTP, self documenting, REST API is provided out of the box."
+        description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A client-less, HTTP, self documenting, REST API is provided out of the box."
 
     [[params.features.list]]
         modalID = 8
