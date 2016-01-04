@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+
+        {{ partial "nav-affix.html" . }}
+
+        <section id="ecpsystem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">{{ .Title }}</h2>
+                        <hr class="primary">
+                        <p>{{ .Description | markdownify }}</p>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            {{ range .Params.packages.list }}
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <div class="service-box" style="min-height: 300px;">
+                                    <img src="{{ .image_url }}">
+                                    <h3>{{ .name }}</h3>
+                                    <p class="text-muted">{{ .description }}</p>
+                                    <a href="{{ .url }}">{{ .url }}</a>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ partial "modals.html" . }}
+        {{ partial "js.html" . }}
+
+    </body>
+</html>

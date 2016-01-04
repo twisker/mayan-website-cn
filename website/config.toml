@@ -37,6 +37,11 @@ theme = "hugo-creative-theme"
             providers = "Support"
             contact   = "Contact"
 
+    [[menu.main]]
+        name = "Ecosytem"
+        identifier = "ecosystem"
+        url = "/ecosystem/"
+
 
     # Hero section
     [params.hero]
