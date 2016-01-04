@@ -20,9 +20,12 @@
                             {{ range .Params.providers.list }}
                                 <div class="col-lg-4 col-md-6 text-center">
                                     <div class="service-box" style="min-height: 230px;">
-                                        <h4>{{ .title }}</h4>
-                                        <address>{{ .address | markdownify }}</address>
-                                        <address>{{ .contact | markdownify }}</address>
+                                        <hr>
+                                        <address>
+                                            <h4>{{ .title }}</h4>
+                                            {{ .address | markdownify }}<br>
+                                            {{ .contact | markdownify }}
+                                        </address>
                                     </div>
                                 </div>
                             {{ end }}
