@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "nav-affix.html" . }}
+        {{ "<!-- PROVIDERS -->" | safeHTML }}
+        <section id="providers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">{{ with .Description }}{{ . }}{{ end }}</h2>
+                        <hr class="primary">
+                        <p>{{ with .Params.heading }}{{ . | markdownify }}{{ end }}</p>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            {{ range .Params.providers.list }}
+                                <div class="col-lg-4 col-md-6 text-center">
+                                    <div class="service-box" style="min-height: 230px;">
+                                        <h4>{{ .title }}</h4>
+                                        <address>{{ .address | markdownify }}</address>
+                                        <address>{{ .contact | markdownify }}</address>
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
