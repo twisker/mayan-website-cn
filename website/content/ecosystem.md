@@ -1,6 +1,6 @@
 +++
 date = "2016-01-02T19:42:54-04:00"
-draft = true
+draft = false
 title = "Ecosystem"
 slug = "ecosystem"
 description = "List of projects related to Mayan EDMS"
