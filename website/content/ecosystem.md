@@ -31,7 +31,7 @@ type = "ecosystem"
     image_url = "http://www.fabfile.org/_static/logo.png"
 
 [[packages.list]]
-    name = "Official docker contianer"
+    name = "Official docker container"
     description = "Docker file image for Mayan EDMS."
     url = "https://gitlab.com/mayan-edms/mayan-edms-docker"
     image_url = "http://www.docker.com/sites/all/themes/docker/assets/images/logo.png"
