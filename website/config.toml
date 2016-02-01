@@ -47,6 +47,10 @@ theme = "hugo-creative-theme"
         identifier = "providers"
         url = "/providers/"
 
+    [[menu.main]]
+        name = "Case studies"
+        identifier = "cases"
+        url = "/cases/"
 
     # Hero section
     [params.hero]
