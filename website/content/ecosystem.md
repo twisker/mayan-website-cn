@@ -36,4 +36,10 @@ type = "ecosystem"
     url = "https://gitlab.com/mayan-edms/mayan-edms-docker"
     image_url = "http://www.docker.com/sites/all/themes/docker/assets/images/logo.png"
 
+[[packages.list]]
+    name = "Cookiecutter Mayan"
+    description = "A cookiecutter template for creating Mayan EDMS apps quickly."
+    url = "https://gitlab.com/mayan-edms/cookiecutter-mayan"
+    image_url = "/content/ecosystem/cookiecutter-logo-large.png"
+
 +++
