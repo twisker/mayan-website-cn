@@ -42,4 +42,10 @@ type = "ecosystem"
     url = "https://gitlab.com/mayan-edms/cookiecutter-mayan"
     image_url = "/content/ecosystem/cookiecutter-logo-large.png"
 
+[[packages.list]]
+    name = "Python API client"
+    description = "Python client for the Mayan EDMS REST API."
+    url = "https://pypi.python.org/pypi/mayan-api_client"
+    image_url = "/content/ecosystem/python.png"
+
 +++
