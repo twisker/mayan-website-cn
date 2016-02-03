@@ -23,7 +23,7 @@ type = "cases"
 
 [[packages.list]]
     name = "OGPE"
-    description = "The Permit Management Office (PMO) is responsible for issuing final determinations and permits, licenses, inspections, certifications and planing authorization."
+    description = "The Permit Management Office (PMO) is responsible for issuing final determinations and permits, licenses, inspections, certifications and planing authorization. Additional information: [1](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/eMUDUsNS3pj) [2](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/gEhb4SjhFHc)"
     url = "https://www.sip.pr.gov"
     image_url = "/content/cases/ogpe.jpg"
     documents = "23,000"
