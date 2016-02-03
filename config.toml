@@ -200,3 +200,11 @@ title = "Mayan EDMS"
         [[params.contact.list]]
             icon = "fa-globe"
             text = "[www.mayan-edms.com](http://www.mayan-edms.com)"
+
+        [[params.contact.list]]
+            icon = "fa-envelope"
+            text = "[Mailing list archives @gmane](http://news.gmane.org/gmane.comp.python.django.mayan-edms)"
+
+        [[params.contact.list]]
+            icon = "fa-envelope"
+            text = "[Mailing list archives @nabble](http://mayan-edms.1003.x6.nabble.com/)"
