@@ -12,7 +12,13 @@ Documen.to, the commercial side of Mayan EDMS now has two new co-founders to hel
 
 In regards with the branding I’ve team up with GeekLocale to produce the Mayan EDMS logo in physical form for use with the hardware document appliances and anything else that comes up and am very pleased with the results:
 
-Furthermore, I’m supporting the initiative to create a certification for document management the CompTIA Certified Document Imaging Architect (CDIA+) certification:
+{{% img src="/content/post/tshirt.jpg" class="col-sm-6" %}}
+
+{{% img src="/content/post/car-sticker.jpg" class="col-sm-6" %}}
+
+Furthermore, I’m supporting the initiative to create a certification for document management the **CompTIA Certified Document Imaging Architect (CDIA+)** certification:
+
+{{% img src="/content/post/cdia.jpeg" class="col-sm-6" %}}
 
 and took the beta exam as part of that process to help in turn validate the work being put into Mayan EDMS and Documen.to.
 

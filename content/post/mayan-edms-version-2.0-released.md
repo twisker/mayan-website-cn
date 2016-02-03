@@ -4,6 +4,8 @@ title = "Mayan EDMS version 2.0 released"
 
 +++
 
+{{% img src="/content/post/time-watch-hands-of-a-clock-clock-pointers-300x199.jpg" %}}
+
 
 I am pleased to announce the immediate availability of Mayan EDMS 2.0. This is a stable release and a major version. This is a summary of the most noteworthy changes:
 

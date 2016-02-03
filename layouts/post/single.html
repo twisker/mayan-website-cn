@@ -11,6 +11,8 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="section-heading">{{ .Title }}</h2>
+                        {{ .Date.Format "Mon, Jan 2, 2006" }}
+
                         <hr class="primary">
                         <p>{{ .Description | markdownify }}</p>
                     </div>
