@@ -14,22 +14,6 @@
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a class="page-scroll" href="{{ if eq $isHomePage false }}/{{ end }}#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="{{ if eq $isHomePage false }}/{{ end }}#overview">{{ with .Site.Params.navigation.links.overview }}{{ . }}{{ end }}</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="{{ if eq $isHomePage false }}/{{ end }}#features">{{ with .Site.Params.navigation.links.features }}{{ . }}{{ end }}</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="{{ if eq $isHomePage false }}/{{ end }}#install">{{ with .Site.Params.navigation.links.install }}{{ . }}{{ end }}</a>
-            </li>
-            <li>
-                <a class="page-scroll" href="{{ if eq $isHomePage false }}/{{ end }}#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
-            </li>
-
             {{ range .Site.Menus.main }}
                 <li>
                     <a href="{{ .URL }}">{{ .Name }}</a>
