@@ -1,7 +1,6 @@
 baseurl = "http://www.mayan-edms.org/"
 languageCode = "en-us"
 title = "Mayan EDMS"
-theme = "hugo-creative-theme"
 
 [params]
 
@@ -36,6 +35,11 @@ theme = "hugo-creative-theme"
             features  = "Features"
             install   = "Install"
             contact   = "Contact"
+
+    [[menu.main]]
+        name = "Blog"
+        identifier = "post"
+        url = "/post/"
 
     [[menu.main]]
         name = "Ecosystem"

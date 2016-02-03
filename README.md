@@ -5,6 +5,6 @@ Use Hugo static generator (http://gohugo.io/)
 
 To build
 --------
-hugo server --watch --theme=mayan -s website
+hugo server --watch
 
 ![Screenshot](https://gitlab.com/mayan-edms/website/raw/master/screenshot.jpg)

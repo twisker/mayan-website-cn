@@ -4,8 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-
-        {{ partial "nav.html" . }}
+        {{ partial "nav-affix.html" . }}
 
         <section id="providers">
             <div class="container">
@@ -18,7 +17,7 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="col-lg-8 col-lg-offset-2">
                                 {{ .Content }}
                             </div>
                         </div>
