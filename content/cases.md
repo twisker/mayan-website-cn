@@ -30,4 +30,10 @@ type = "cases"
     documentsDate = "2013-04-01"
 
 
+[[packages.list]]
+    name = "Université de Montréal"
+    description = "The School of Library and Information Science from the University of Montreal use Mayan EDMS as a lab tool for their ARV3054 course - digital archive management. Additional information: [1](http://cours.ebsi.umontreal.ca/planscours/diffusion/index.php?cours=arv3054) [2](https://arv3054.github.io/)"
+    url = "https://github.com/ARV3054/docker-mayan-edms"
+    image_url = "/content/cases/universite-montreal.png"
+    
 +++
