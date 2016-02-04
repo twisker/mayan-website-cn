@@ -20,16 +20,16 @@
                         <div class="row">
                             {{ range .Params.packages.list }}
                             <div class="col-lg-4 col-md-6 text-center">
-                                <div class="service-box" style="min-height: 300px;">
+                                <div class="service-box" style="min-height: 550px;">
                                     <div style="min-height: 150px;">
-                                        <img src="{{ .image_url }}">
+                                        <img class="center-block img-responsive" src="{{ .image_url }}">
                                     </div>
                                     <h3>{{ .name }}</h3>
                                     <p class="text-muted">{{ .description | markdownify }}</p>
                                     <a href="{{ .url }}">{{ .url }}</a>
-                                    <p>Documents: {{ if .documents }} {{ .documents }}{{ else }}N/A{{ end }}</p>
+                                    {{ if .documents }}<p>Documents: {{ .documents }}</p>{{ end }}
                                     
-                                    <p>Last update: {{ if .documentsDate }}{{ dateFormat "Monday, Jan 2, 2006" .documentsDate }}{{ else }}N/A{{ end }}</p>
+                                    {{ if .documents }}<p>Last update: {{ dateFormat "Monday, Jan 2, 2006" .documentsDate }}</p>{{ end }}
                                 </div>
                             </div>
                             {{ end }}
