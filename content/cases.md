@@ -20,7 +20,6 @@ type = "cases"
     url = "http://openode.net/"
     image_url = "/content/cases/openode.png"
 
-
 [[packages.list]]
     name = "OGPE"
     description = "The Permit Management Office (PMO) is responsible for issuing final determinations and permits, licenses, inspections, certifications and planing authorization. Additional information: [1](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/eMUDUsNS3pj) [2](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/gEhb4SjhFHc)"
@@ -29,11 +28,16 @@ type = "cases"
     documents = "23,000"
     documentsDate = "2013-04-01"
 
-
 [[packages.list]]
     name = "Université de Montréal"
     description = "The School of Library and Information Science from the University of Montreal use Mayan EDMS as a lab tool for their ARV3054 course - digital archive management. Additional information: [1](http://cours.ebsi.umontreal.ca/planscours/diffusion/index.php?cours=arv3054) [2](https://arv3054.github.io/)"
     url = "https://github.com/ARV3054/docker-mayan-edms"
     image_url = "/content/cases/universite-montreal.png"
-    
+
+[[packages.list]]
+    name = "CommonS Project"
+    description = "An international co-learning and e-mentoring Community of Practice (CoP) devoted to improving the employability skills and work opportunities of participants producing remixed and localised OERs, i.e. Open Educational Resources freely available to everyone. Additional information: [1](https://github.com/gtoffoli/commons)" 
+    url = "http://www.commonspaces.eu/"
+    image_url = "/content/cases/commonspaces.jpg"
+        
 +++
