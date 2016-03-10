@@ -9,11 +9,6 @@ type = "providers"
 heading = "While Mayan EDMS is Free Open Source, there is a growing global network of professional service and support providers ready to assist you."
 
 [[providers.list]]
-    title = "creat1va"
-    address = "Santa Cruz de la Sierra,  \nBolivia"
-    contact = "TEL: +591 3 3274378  \nE-mail: contacto@creat1va.com  \nWebsite: www.creat1va.com"
-
-[[providers.list]]
     title = "Falcone IT Consulting"
     address = "Quadra 3 Conjunto 7 T22  \nCasa 3 SHTQ  \nBrasilia, DF Brazil"
     contact = "Tel : +055 – 61 98288075  \nWebsite: www.falconeit.com.br"
@@ -34,34 +29,14 @@ heading = "While Mayan EDMS is Free Open Source, there is a growing global netwo
     contact = "Ph: +91-94971 09541, +91-44-4957 9362  \nemail: info@upayog-solutions.com  \nweb: upayogsolutions.com"
 
 [[providers.list]]
-    title = "JTP Soluzioni Informatice"
-    address = "via Miranese, 426 F  \n30173 Mestre (Venezia)"
-    contact = "Tel. 041 8626205 | Fax 041 610357  \nP.I. 03807760271  \nE-mail: info@jtpnet.com  \nWebsite: www.jtpnet.com"
-
-[[providers.list]]
     title = "K-Tech S.r.l"
     address = "Via Cristoforo Colombo,440  \n00145 – Roma  \nItalia"
     contact = "Phone: +39.06.68301467  \nFAX: +39.06.6868105  \nE-mail: k-tech@k-tech.it  \nE-mail: staff@k-tech.it  \nE-mail: lavoro@k-tech.it  \nWebsite: www.k-tech.it"
 
 [[providers.list]]
-    title = "OfficeLink sas"
-    address = "via di Dragoncello,613  \n00126 Roma Italy"
-    contact = "Tel. +39 065216278  \nFax +39 0652318179  \nE-mail: info@officelink.it  \nWebsite: www.officelink.it"
-
-[[providers.list]]
-    title = "SeeOpen S.r.l."
-    address = "Via Michele Rosi, 184  \n00050 Aranova (RM)  \nNumero Verde: 800.910.125"
-    contact = "E-mail: info@seeopen.it  \nWebsite: www.seeopen.it"
-
-[[providers.list]]
     title = "SOFTLAB S.p.A"
     address = "Via Valentino Mazzola, 66  \n00142 ROMA"
     contact = "Tel +39 06510391  \nE-mail: direzione.commerciale@soft.it  \nWebsite: www.softlab-italia.it  \nWebsite: www.soft.it"
-
-[[providers.list]]
-    title = "Cryptico Corp."
-    address = "PO Box 368159  \nSan Juan, PR 00936"
-    contact = "Tel: 787-677-1964  \nWebsite: www.crypticocorp.com"
 
 [[providers.list]]
     title = "i-Kno Knowledge Solutions (Pty) Ltd"
