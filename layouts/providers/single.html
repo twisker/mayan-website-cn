@@ -14,9 +14,24 @@
                         <hr class="primary">
                         <p>{{ with .Params.heading }}{{ . | markdownify }}{{ end }}</p>
                     </div>
+ 
+		</div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+				<p>
+                                        <address>
+                                            <h4><strong>Mayan EDMS LLC</strong></h4>
+                                            PO Box 368159<br>
+                                            San Juan, PR 00936<br>
+                                            email: <a href="mailto:info@mayan-edms.com">info@mayan-edms.com</a>
+                                        </address>
+                        	</p>                    
+                	 </div>
+		</div>
 
                     <div class="container">
                         <div class="row">
+                           <h2 class="text-center">Regional providers</h2>
                             {{ range .Params.providers.list }}
                                 <div class="col-lg-4 col-md-6 text-center">
                                     <div class="service-box" style="min-height: 250px;">

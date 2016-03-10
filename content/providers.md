@@ -6,7 +6,7 @@ slug = "providers"
 description = "Support providers"
 type = "providers"
 
-heading = "While Mayan EDMS is Free Open Source, there is a growing global network of professional service and support providers ready to assist you."
+heading = "**Mayan EDMS LLC** is the company behind Mayan EDMS and the primary commercial services provider. Consulting, support, customization, rebranding, and plug-in development are available."
 
 [[providers.list]]
     title = "Falcone IT Consulting"
