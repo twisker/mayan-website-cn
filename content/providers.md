@@ -30,8 +30,8 @@ heading = "While Mayan EDMS is Free Open Source, there is a growing global netwo
 
 [[providers.list]]
     title = "Upayog Solutions"
-    address = "IT Startup Village,  \nKINFRA Hi-tech Park,  \nOpp. Co-operative Medical College,  \nHMT Colony P.O, Kalamassery,  \nKochi – 683503"
-    contact = "Phone: +91-9497109541  \nE-mail: info@upayog-solutions.com  \nWebsite: upayog-solutions.com"
+    address = "IT Startup Village,  \n14/A, Sai Mandir Ground Floor,  \n2nd Cross (Appar) Street,  \nNear Citi Union Bank ATM,  \nKamakodi Nagar, Valasaravakkam,  \nChennai - 600087"
+    contact = "Ph: +91-94971 09541, +91-44-4957 9362  \nemail: info@upayog-solutions.com  \nweb: upayogsolutions.com"
 
 [[providers.list]]
     title = "JTP Soluzioni Informatice"
