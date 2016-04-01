@@ -167,6 +167,10 @@ title = "Mayan EDMS"
             text = "Get started!"
             link = "https://mayan.readthedocs.org"
 
+    # Aside section
+    [params.signup]
+        headline = "Or better yet, use Mayan EDMS on the cloud!"
+        text = "Sign up for the service announcement mailing list."
 
     # Contact section
     [params.contact]
