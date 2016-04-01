@@ -178,10 +178,6 @@ title = "Mayan EDMS"
         description = ""
 
         [[params.contact.list]]
-            icon = "fa-envelope-o"
-            text = "[info@mayan-edms.com](mailto:info@mayan-edms.com)"
-
-        [[params.contact.list]]
             icon = "fa-twitter"
             text = "[@MayanEDMS](https://twitter.com/@mayanedms)"
 
