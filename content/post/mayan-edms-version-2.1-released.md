@@ -9,6 +9,14 @@ title = "Mayan EDMS version 2.1 released"
 
 Version 2.1 has been release on PyPI: https://pypi.python.org/pypi/mayan-edms/2.1
 
+The biggest news for this version is the addition of document signing support.
+Cryptographic document signing is a feature found only in expensive commercial software.
+Previously Mayan EDMS was the only Free Open Source DMS software with the ability to verify electronic signatures.
+Now, with the added capability of creating electronic document signatures,
+Mayan EDMS joins the ranks of the commercial solutions like Adobe ECHOSIGN and DocuSign.
+Aside from being able to sign documents electronically for a truly paperless experience,
+the usual level of access control Mayan EDMS usually provides has been added to this feature too.
+
 The highlights for this version are:
 
 - Complete move to Django 1.8 LTS (Long time support)
