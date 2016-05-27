@@ -47,11 +47,17 @@ type = "ecosystem"
     description = "Python client for the Mayan EDMS REST API."
     url = "https://pypi.python.org/pypi/mayan-api_client"
     image_url = "/content/ecosystem/python.png"
-    
+
 [[packages.list]]
     name = "Peten"
     description = "Java uploader for Mayan EDMS."
     url = "https://github.com/sjclemen/peten"
-    image_url = "/content/ecosystem/peten.png"    
+    image_url = "/content/ecosystem/peten.png"
+
+[[packages.list]]
+    name = "Mayan EDMS Document Analyzer"
+    description = "Generic document analyzer app."
+    url = "https://gitlab.com/startmat/document_analyzer"
+    image_url = "/content/ecosystem/document_analyzer.png"
 
 +++
