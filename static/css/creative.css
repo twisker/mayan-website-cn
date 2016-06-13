@@ -483,3 +483,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    padding: 15px 0px 0px 0px;
+}
+
+footer .copyright {
+    font-size: 10px;
+}
