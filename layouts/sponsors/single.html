@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "nav-affix.html" . }}
+        {{ "<!-- PROVIDERS -->" | safeHTML }}
+        <section id="providers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">{{ with .Description }}{{ . }}{{ end }}</h2>
+                        <hr class="primary">
+                        <p>The following companies are generously supporting Mayan EDMS.</p>
+                    </div>
+                </div>
+
+                <div class="container">
+
+                    {{ if .Params.sponsors.platinum.list }}
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10 col-md-offset-3 col-md-6">
+                            <h3 class="text-center">Platinum</h3>
+                            <hr>
+                            <div class="sponsors">
+                                {{ range .Params.sponsors.platinum.list }}
+                                    {{ template "sponsors/sponsor.html" . }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                    {{ if .Params.sponsors.gold.list }}
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10 col-md-offset-3 col-md-6">
+                            <h3 class="text-center">Gold</h3>
+                            <hr>
+                            <div class="sponsors">
+                                {{ range .Params.sponsors.gold.list }}
+                                    {{ template "sponsors/sponsor.html" . }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                    {{ if .Params.sponsors.silver.list }}
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10 col-md-offset-3 col-md-6">
+                            <h3 class="text-center">Silver</h3>
+                            <hr>
+                            <div class="sponsors">
+                                {{ range .Params.sponsors.silver.list }}
+                                    {{ template "sponsors/sponsor.html" . }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+
+
+                    {{ if .Params.sponsors.services.list }}
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10 col-md-offset-3 col-md-6">
+                            <h3 class="text-center">Services</h3>
+                            <hr>
+                            <div class="sponsors">
+                                {{ range .Params.sponsors.services.list }}
+                                    {{ template "sponsors/sponsor.html" . }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                            <h3 class="text-center">Why Become a Sponsor?</h3>
+                            <p>
+                                It's time for the paperless office to be the default office and Mayan EDMS is making it happen. This is a big transition, and we want you to be a part of it.
+                            </p>
+                            <h4>Sponsorship levels</h4>
+                            <p>
+                                <ul>
+                                    <li>Platinum: $350 (USD) per year</li>
+                                    <li>Gold: $100 (USD) per year</li>
+                                    <li>Silver: $50 (USD) per year</li>
+                                    <li>Service: host or provide a service</li>
+                                </ul>
+                            </p>
+                            <p>
+                                If you'd like to become a sponsor, email <a href="sponsor@mayan-edms.com">sponsor@mayan-edms.com</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </body>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+</html>

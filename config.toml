@@ -35,6 +35,7 @@ title = "Mayan EDMS"
             features  = "Features"
             install   = "Install"
             contact   = "Contact"
+            sponsors  = "Sponsors"
 
     [[menu.main]]
         name = "Blog"
@@ -55,6 +56,11 @@ title = "Mayan EDMS"
         name = "Case studies"
         identifier = "cases"
         url = "/cases/"
+
+    [[menu.main]]
+        name = "Sponsors"
+        identifier = "sponsors"
+        url = "/sponsors/"
 
     # Hero section
     [params.hero]
