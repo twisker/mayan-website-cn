@@ -1,5 +1,5 @@
 +++
-date = "2012-09-31T12:53:43-04:00"
+date = "2012-09-30T12:53:43-04:00"
 title = "Addressing license and source code concerns"
 
 +++
@@ -62,5 +62,5 @@ forking and hacking on it.
 Finally, but no less important, I want to thank all the news outlets that
 reported on this situation for providing the necessary forums for discussion;
 where there is no discussion there cannot be consensus. And my most sincere
-hanks to everyone, everywhere in the world, who voiced their opinion, even 
+hanks to everyone, everywhere in the world, who voiced their opinion, even
 when not voiced in the best of languages it was still much appreciated. Thank you.
