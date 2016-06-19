@@ -2,6 +2,8 @@ baseurl = "http://www.mayan-edms.org/"
 languageCode = "en-us"
 title = "Mayan EDMS"
 
+googleAnalytics = "UA-52965619-1"
+
 [params]
 
     # You can use Markdown syntax for urls [text](//url.to/source) for
