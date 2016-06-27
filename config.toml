@@ -67,7 +67,7 @@ googleAnalytics = "UA-52965619-1"
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "Your documents,  \nno secrets"
+        slogan     = "Your documents.  \nNo surprises."
         subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing yours?"
         buttonText = "Find out more"
 
