@@ -75,7 +75,7 @@ googleAnalytics = "UA-52965619-1"
     # About section
     [params.about]
         headline    = "What is it?"
-        description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being Open Source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
+        description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being open source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
         buttonText  = "Overview"
 
 
@@ -86,22 +86,22 @@ googleAnalytics = "UA-52965619-1"
         [[params.overview.list]]
             icon = "fa-globe"
             title = "Web based"
-            description = "No need to install anything on your user's computers. Forget document viewers just use the browser."
+            description = "No need to install anything on your user's computers. Forget document viewers, just use the browser."
 
         [[params.overview.list]]
             icon = "fa-money"
             title = "Vendor agnostic"
-            description = "Integrates with your current equipment, no need to purchase new scanners, computers or copiers."
+            description = "Integrates with your current equipment, no need to purchase new scanners, computers, or copiers."
 
         [[params.overview.list]]
             icon = "fa-beer"
-            title = "Free as in beer"
-            description = "No enterprise vs. community versions, every feature available from a single download."
+            title = "Free of charge"
+            description = "No enterprise vs. community versions. Every feature available from a single, free download."
 
         [[params.overview.list]]
             icon = "fa-linux"
-            title = "Free Open Source"
-            description = "No vendor lock-in, no backdoors, audit the code, customize it or write your own plugins."
+            title = "Freedom of choice"
+            description = "Forget vendor lock-in. Forget about backdoors. Audit the code, customize it, or write your own extensions."
 
 
     # Feature modals
