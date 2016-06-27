@@ -8,7 +8,7 @@ type = "cases"
 
 [[packages.list]]
     name = "California Public Utilities Commission, Energy Division, Utility Advice Letters and Related Documents"
-    description = "The CPUC publishes electronic copies of official CPUC-generated proceeding documents, Advice Letters, and documents that are electronically filed by third parties during a proceeding. Decisions, Resolutions, Rulings, and other documents issued after June 2000 are available online."
+    description = "The CPUC publishes electronic copies of official CPUC-generated proceeding documents, Advice Letters, and documents that are electronically filed by third parties during a proceeding. Mayan EDMS powers the entire CPUC public portal."
     url = "https://cpucadviceletters.org"
     image_url = "/content/cases/cpucadviceletters.png"
     documents = "1,414"
@@ -16,13 +16,13 @@ type = "cases"
 
 [[packages.list]]
     name = "OPENode"
-    description = "OPENode is open source web application for communities seeking answers for diverse problems in commercial, public or voluntary sectors. Based on flexible communication in nodes it helps to find solutions effectively and build smarter knowledgebase."
+    description = "OPENode is open source web application for communities seeking answers for diverse problems in commercial, public or voluntary sectors. Based on flexible communication in nodes it helps to find solutions effectively and build smarter knowledgebase. Mayan EDMS is used to manage all OPENode entry documents as well as provide real time preview of each document."
     url = "http://openode.net/"
     image_url = "/content/cases/openode.png"
 
 [[packages.list]]
     name = "OGPE"
-    description = "The Permit Management Office (PMO) is responsible for issuing final determinations and permits, licenses, inspections, certifications and planing authorization. Additional information: [1](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/eMUDUsNS3pj) [2](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/gEhb4SjhFHc)"
+    description = "The Permit Management Office (PMO) is responsible for issuing final determinations and permits, licenses, inspections, certifications and planing authorization. Mayan EDMS is used as the main document repository for permits. Additional information: [1](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/eMUDUsNS3pj) [2](https://plus.google.com/u/0/b/108413286958999778262/+Mayan-edms/posts/gEhb4SjhFHc)"
     url = "https://www.sip.pr.gov"
     image_url = "/content/cases/ogpe.jpg"
     documents = "23,000"
@@ -36,8 +36,8 @@ type = "cases"
 
 [[packages.list]]
     name = "CommonS Project"
-    description = "An international co-learning and e-mentoring Community of Practice (CoP) devoted to improving the employability skills and work opportunities of participants producing remixed and localised OERs, i.e. Open Educational Resources freely available to everyone. Additional information: [1](https://github.com/gtoffoli/commons)" 
+    description = "An international co-learning and e-mentoring Community of Practice (CoP) devoted to improving the employability skills and work opportunities. Mayan EDMS is used to manage the Open Educational Resources of the platform. Additional information: [1](https://github.com/gtoffoli/commons) [2](http://www.commonspaces.eu/info/platform/)"
     url = "http://www.commonspaces.eu/"
     image_url = "/content/cases/commonspaces.jpg"
-        
+
 +++
