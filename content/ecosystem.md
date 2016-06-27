@@ -3,7 +3,7 @@ date = "2016-01-02T19:42:54-04:00"
 draft = false
 title = "Ecosystem"
 slug = "ecosystem"
-description = "List of projects related to Mayan EDMS"
+description = "This page lists projects related to Mayan EDMS"
 type = "ecosystem"
 
 [[packages.list]]
