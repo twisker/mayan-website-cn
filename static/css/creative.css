@@ -521,3 +521,19 @@ footer .copyright {
     max-width: 100%;
     max-height: 180px;
 }
+
+.panel-price {
+    -webkit-transition-property : scale;
+    -webkit-transition-duration : 0.2s;
+    -webkit-transition-timing-function : ease-in-out;
+    -moz-transition : all 0.2s ease-in-out;
+    color: black;
+}
+
+.panel-price:hover {
+    box-shadow: 0 0 10px rgba(255,255,255,.5);
+    -moz-box-shadow: 0 0 10px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 10px rgba(255,255,255,.5);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}

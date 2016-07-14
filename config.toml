@@ -169,7 +169,7 @@ googleAnalytics = "UA-52965619-1"
     # Aside section
     [params.aside]
         headline = "Ready to try out Mayan EDMS?"
-        text = "There are several ways to install Mayan EDMS, take a look at the documentation to find the one that suits you."
+        text = "There are several ways to install Mayan EDMS, find the one that better suits you."
 
         [params.aside.button]
             text = "Documentation"
@@ -177,7 +177,7 @@ googleAnalytics = "UA-52965619-1"
 
     # Aside section
     [params.signup]
-        headline = "Or better yet, use Mayan EDMS on the cloud!"
+        headline = "3- Or better yet, use Mayan EDMS on the cloud!"
         text = "Sign up for the service announcement mailing list."
 
     # Contact section
