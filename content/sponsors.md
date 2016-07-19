@@ -6,6 +6,11 @@ slug = "sponsors"
 description = "Sponsors"
 type = "sponsors"
 
+[[sponsors.silver.list]]
+    name = "RTM-IT"
+    logo = "rtm-it.jpg"
+    url = "http://www.rtm-it.com"
+    description = "is dedicated to OpenVMS. Sales, Consulting, Virtual Alpha Server, Migration, and Porting."
 
 [[sponsors.services.list]]
     name = "KeyCDN"
