@@ -60,4 +60,9 @@ type = "ecosystem"
     url = "https://gitlab.com/startmat/document_analyzer"
     image_url = "/content/ecosystem/document_analyzer.png"
 
+[[packages.list]]
+    name = "Mayan EDMS Ansible"
+    description = "Ansible playbook for deploying the Mayan-EDMS system"
+    url = "https://github.com/mikefromit/ansible-mayan-edms"
+    image_url = "/content/ecosystem/ansible.png"
 +++
