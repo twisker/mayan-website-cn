@@ -40,4 +40,10 @@ type = "cases"
     url = "http://www.commonspaces.eu/"
     image_url = "/content/cases/commonspaces.jpg"
 
+[[packages.list]]
+    name = "Wind River Systems"
+    description = "Wind River Systems, founded in 1981 and later acquired in 2009 by Intel for $884 millions dollars, is a company that develops the real-time embedded operating system VxWorks. By 2012 Wind River Systems' global work force was comprised of 1,800+ employees. Wind River Systems uses a customized version of Mayan EDMS as a technical documentation repository for the their knowledge base, integrated into their single sign-on system and with their content management system. Additional information: [1](https://en.wikipedia.org/wiki/Wind_River_Systems)"
+    url = "http://www.windriver.com"
+    image_url = "/content/cases/wind-river.png"
+
 +++
