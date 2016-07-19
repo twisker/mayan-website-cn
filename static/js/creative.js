@@ -45,4 +45,7 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // matchHeight to all .match-height css classes
+    $('.match-height').matchHeight();
+
 })(jQuery); // End of use strict
