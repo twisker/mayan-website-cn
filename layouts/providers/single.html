@@ -14,54 +14,170 @@
                         <hr class="primary">
                         <p>{{ with .Params.heading }}{{ . | markdownify }}{{ end }}</p>
                     </div>
- 
-		</div>
+
+                </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-				<p>
-                                        <address>
-                                            <h4><strong>Mayan EDMS LLC</strong></h4>
-                                            PO Box 368159<br>
-                                            San Juan, PR 00936<br>
-                                            email: <a href="mailto:info@mayan-edms.com">info@mayan-edms.com</a>
-                                        </address>
-                        	</p>                    
-                	 </div>
-		</div>
-
-                    <div class="container">
-                        <div class="row">
-                           <h2 class="text-center">Regional providers</h2>
-                            {{ range .Params.providers.list }}
-                                <div class="col-lg-4 col-md-6 text-center">
-                                    <div class="service-box" style="min-height: 250px;">
-                                        <hr>
-                                        <address>
-                                            <h4>{{ .title }}</h4>
-                                            {{ .address | markdownify }}<br>
-                                            {{ .contact | markdownify }}
-                                        </address>
-                                    </div>
-                                </div>
-                            {{ end }}
-                        </div>
+                        <p>
+                            <address>
+                                <h4><strong>Mayan EDMS LLC</strong></h4>
+                                PO Box 368159<br>
+                                San Juan, PR 00936<br>
+                                email: <a href="mailto:info@mayan-edms.com">info@mayan-edms.com</a>
+                            </address>
+                        </p>
                     </div>
+                </div>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <hr>
-                                <p>
-                                    If you want to be added to this page, please send an email to <a href="mailto:support@mayan-edms.com">support@mayan-edms.com</a>.
-                                </p>
+<style>
+    .table-support-plans thead th {
+        text-shadow: 3px 3px 2px rgba(0,0,0,.1);
+        text-align: center;
+        min-width: 100px;
+    }
+
+    .table-support-plans tbody td {
+        text-align: center;
+    }
+
+    .table-support-plans tbody td:first-child {
+        text-align: left;
+    }
+
+    .table-support-plans .fa-times {
+        color: red;
+    }
+
+    .table-support-plans .fa-check {
+        color: green;
+        font-size: 140%;
+    }
+
+</style>
+
+
+
+                <div class="row">
+                    <h2 class="text-center">Support plans</h2>
+                    <table class="table table-bordered table-support-plans">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Community</th>
+                                <th>Basic</th>
+                                <th>Commercial</th>
+                                <th>Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mailing list</td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Guaranteed response</td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Access to premium forum</td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Email access to core team</td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Phone access to core team</td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-times"></span></td>
+                                <td><span class="fa fa-check"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>Free</td>
+                                <td>$14.99 USD /month</td>
+                                <td>$399.99 USD /month</td>
+                                <td>Contact us</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="panel-body text-center">
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4ERHLVE655MLQ">
+<table style="margin: auto;">
+<tr><td><input type="hidden" name="on0" value="Support option">Support option</td></tr><tr><td><select name="os0">
+    <option value="Basic">Basic : $14.99 USD - monthly</option>
+    <option value="Commercial">Commercial : $399.99 USD - monthly</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Email for forum account invite">Email for forum account invite</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
                             </div>
                         </div>
                     </div>
-
                 </div>
+
+                <div class="container">
+                    <div class="row">
+                       <h2 class="text-center">Regional providers</h2>
+                        {{ range .Params.providers.list }}
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <div class="service-box" style="min-height: 250px;">
+                                    <hr>
+                                    <address>
+                                        <h4>{{ .title }}</h4>
+                                        {{ .address | markdownify }}<br>
+                                        {{ .contact | markdownify }}
+                                    </address>
+                                </div>
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <hr>
+                            <p>
+                                If you want to be added to this page, please send an email to <a href="mailto:support@mayan-edms.com">support@mayan-edms.com</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     </body>
-    {{ partial "footer.html" . }}    
+    {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </html>
