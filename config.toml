@@ -1,8 +1,8 @@
-baseurl = "http://www.mayan-edms.org/"
-languageCode = "en-us"
-title = "Mayan EDMS"
+baseurl = "http://www.mayan-edms.cn/"
+languageCode = "zh-Hans"
+title = "梅雁EDMS"
 
-googleAnalytics = "UA-52965619-1"
+# googleAnalytics = "UA-52965619-1"
 
 [params]
 
@@ -20,8 +20,8 @@ googleAnalytics = "UA-52965619-1"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mayan EDMS"
-    description = "Free Open Source Document Management System"
+    name = "梅雁EDMS"
+    description = "简洁实用的开源文档电子化管理平台"
 
     # The path must be relative to the static folder
     favicon = "favicon.ico"
@@ -29,79 +29,63 @@ googleAnalytics = "UA-52965619-1"
 
     # Navigation
     [params.navigation]
-        brand = "Mayan EDMS"
+        brand = "梅雁EDMS"
 
         [params.navigation.links]
-            about     = "About"
-            overview  = "Overview"
-            features  = "Features"
-            install   = "Install"
-            contact   = "Contact"
-            sponsors  = "Sponsors"
+            about     = "关于梅雁"
+            overview  = "四大亮点"
+            features  = "功能简介"
+            install   = "如何获取"
+            contact   = "联系方式"
 
     [[menu.main]]
-        name = "Blog"
+        name = "动态"
         identifier = "post"
         url = "/post/"
 
     [[menu.main]]
-        name = "Ecosystem"
-        identifier = "ecosystem"
-        url = "/ecosystem/"
-
-    [[menu.main]]
-        name = "Support"
-        identifier = "providers"
-        url = "/providers/"
-
-    [[menu.main]]
-        name = "Case studies"
+        name = "案例"
         identifier = "cases"
         url = "/cases/"
-
-    [[menu.main]]
-        name = "Sponsors"
-        identifier = "sponsors"
-        url = "/sponsors/"
 
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "Your documents.  \nNo surprises."
-        subtitle   = "Documents are a primary asset of every organization. Do you know everything about the software storing yours?"
-        buttonText = "Find out more"
+        slogan     = "梅香高阁书万卷 \n雁点青天字一行"
+        subtitle   = "世界风行的梅雁文档电子化平台（Mayan-EDMS），从今有了一颗中国心。"
+        buttonText = "了解详情"
 
 
     # About section
     [params.about]
-        headline    = "What is it?"
-        description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being open source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
-        buttonText  = "Overview"
-
+        headline    = "什么是梅雁EDMS?"
+        # description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being open source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
+        description = "2009年委内瑞拉政府发起了一个文档电子化项目，并于2011年发布了基于开源社区的一个成熟发行版，这就是Mayan-EDMS。自问世以来，Mayan-EDMS以其完善的功能和超强的性价比，在美洲和欧洲吸引了超过5000家忠实客户，美国、巴西、意大利、乌克兰、法国等地还有十数家公司为其提供专业的技术支持。2018年，Mayan-EDMS终于迎来了第一个中国本地发行版——梅雁EDMS。这个发行版在国际版的基础上，针对中国区域用户的使用习惯进行了大量的定制工作，包括对Office文档的原生支持，更人性化的首页、报表和文档预览等，无论您是小到仅仅需要对收据和发票进行管理的小店，还是有上百万条知识需要管理的大型企业，或者是大批实体藏书需要电子化的图书馆，梅雁EDMS都能助您一臂之力。还犹豫什么呢，赶快联系我们，获得免费试用的机会。"
+        buttonText  = "选择梅雁的四大理由"
 
     # Overview section
     [params.overview]
-        headline = "Overview"
+        headline = "选择梅雁的四大理由"
 
         [[params.overview.list]]
             icon = "fa-globe"
-            title = "Web based"
-            description = "No need to install anything on your user's computers. Forget document viewers, just use the browser."
+            title = "纯H5解决方案"
+            description = "无需安装任何插件、APP、应用程序，只要有浏览器就可以工作，可与微信等平台无缝集成。"
 
         [[params.overview.list]]
             icon = "fa-money"
-            title = "Vendor agnostic"
-            description = "Integrates with your current equipment, no need to purchase new scanners, computers, or copiers."
+            title = "优异的性价比"
+            description = "软件免费下载，只收取服务和运维的费用，功能强大，且可以适配各种扫描仪、打印机、浏览器、平板电脑、手机。"
 
         [[params.overview.list]]
-            icon = "fa-beer"
-            title = "Free of charge"
-            description = "No enterprise vs. community versions. Every feature available from a single, free download."
+            icon = "fa-gear"
+            title = "超强的定制功能"
+            description = "超强的本土实施团队能为你的现有需求做最贴心的定制，能无缝对接SAP、微软等厂商的多款云产品。"
 
         [[params.overview.list]]
-            icon = "fa-linux"
-            title = "Freedom of choice"
-            description = "Forget vendor lock-in. Forget about backdoors. Audit the code, customize it, or write your own extensions."
+            icon = "fa-eye"
+            title = "安全可靠"
+            description = "基于开源社区代码，每一行都经得起检验，如有必要，你甚至可以亲自对代码进行审核。"
 
 
     # Feature modals
