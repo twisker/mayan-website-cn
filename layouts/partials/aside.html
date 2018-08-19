@@ -1,5 +1,4 @@
 {{ "<!-- ASIDE -->" | safeHTML }}
-<script src="https://gumroad.com/js/gumroad.js"></script>
 
 <aside class="bg-dark" id="install">
     <div class="container text-center">
@@ -9,7 +8,7 @@
 
                 {{ partial "prices.html" . }}
 
-            <h2>2- Installed locally on your machine (Requires basic Linux knowledge)</h2>
+            <h2>你也可以在我们的演示系统里先行体验（用户名：mayan，密码：guest）</h2>
             <a href="{{ with .Site.Params.aside.button.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Site.Params.aside.button.text }}{{ . }}{{ end }}</a>
         </div>
     </div>

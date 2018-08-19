@@ -1,6 +1,6 @@
 baseurl = "http://www.mayan-edms.cn/"
 languageCode = "zh-Hans"
-title = "梅雁EDMS"
+title = "梅雁EDMS中文官网 - 易而易网络科技"
 
 # googleAnalytics = "UA-52965619-1"
 
@@ -20,7 +20,7 @@ title = "梅雁EDMS"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "梅雁EDMS"
+    name = "易而易网络科技"
     description = "简洁实用的开源文档电子化管理平台"
 
     # The path must be relative to the static folder
@@ -33,25 +33,25 @@ title = "梅雁EDMS"
 
         [params.navigation.links]
             about     = "关于梅雁"
-            overview  = "四大亮点"
-            features  = "功能简介"
-            install   = "如何获取"
+            overview  = "四大理由"
+            features  = "功能特性"
+            install   = "授权许可"
             contact   = "联系方式"
 
     [[menu.main]]
-        name = "动态"
-        identifier = "post"
-        url = "/post/"
+        name = "获取源码"
+        identifier = "opensource"
+        url = "https://github.com/twisker/mayan-edms-cn/"
 
     [[menu.main]]
-        name = "案例"
-        identifier = "cases"
-        url = "/cases/"
+        name = "海外总站"
+        identifier = "com"
+        url = "http://www.mayan-edms.com/"
 
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "梅香高阁书万卷 \n雁点青天字一行"
+        slogan     = "梅映高阁书万卷 \n雁点青天字一行"
         subtitle   = "世界风行的梅雁文档电子化平台（Mayan-EDMS），从今有了一颗中国心。"
         buttonText = "了解详情"
 
@@ -60,7 +60,7 @@ title = "梅雁EDMS"
     [params.about]
         headline    = "什么是梅雁EDMS?"
         # description = "Mayan EDMS is an electronic vault for your documents. With Mayan EDMS you will never lose another document to floods, fire, theft, sabotage, fungus or decomposition. Its advanced search and categorization capabilities will help you reduce the time to find the information you need. It is free open source and integrates with your existing equipment, that means low to no initial investment, and even lower total cost of ownership, reducing operational costs has never been this easy. Being open source its code is freely available, allowing you to see how it is handling your documents if you ever need to, you will be glad you choose Mayan EDMS on your next audit. Initially released in 2011 and with thousands of installations worldwide, Mayan EDMS is a mature and time tested software you can rely on."
-        description = "2009年委内瑞拉政府发起了一个文档电子化项目，并于2011年发布了基于开源社区的一个成熟发行版，这就是Mayan-EDMS。自问世以来，Mayan-EDMS以其完善的功能和超强的性价比，在美洲和欧洲吸引了超过5000家忠实客户，美国、巴西、意大利、乌克兰、法国等地还有十数家公司为其提供专业的技术支持。2018年，Mayan-EDMS终于迎来了第一个中国本地发行版——梅雁EDMS。这个发行版在国际版的基础上，针对中国区域用户的使用习惯进行了大量的定制工作，包括对Office文档的原生支持，更人性化的首页、报表和文档预览等，无论您是小到仅仅需要对收据和发票进行管理的小店，还是有上百万条知识需要管理的大型企业，或者是大批实体藏书需要电子化的图书馆，梅雁EDMS都能助您一臂之力。还犹豫什么呢，赶快联系我们，获得免费试用的机会。"
+        description = "2009年乌拉圭政府发起了一个文档电子化项目，并于2011年发布了基于开源社区的一个成熟发行版，这就是Mayan-EDMS。自问世以来，Mayan-EDMS以其完善的功能和超强的性价比，在美洲和欧洲吸引了超过5000家忠实客户，美国、巴西、意大利、乌克兰、法国等地还有十数家公司为其提供专业的技术支持。2018年，Mayan-EDMS终于迎来了第一个中国本地发行版——梅雁EDMS。这个发行版在国际版的基础上，针对中国区域用户的使用习惯进行了大量的定制工作，包括对Office文档的原生支持，更人性化的首页、报表和文档预览等，无论您是小到仅仅需要对收据和发票进行管理的小店，还是有上百万条知识需要管理的大型企业，或者是大批实体藏书需要电子化的图书馆，梅雁EDMS都能助您一臂之力。还犹豫什么呢，赶快联系我们，获得免费试用的机会。"
         buttonText  = "选择梅雁的四大理由"
 
     # Overview section
@@ -90,113 +90,93 @@ title = "梅雁EDMS"
 
     # Feature modals
     [params.features.modal]
-        buttonText = "Close"
+        buttonText = "关闭"
 
     [params.features]
-        headline = "Features"
+        headline = "功能特性"
 
     # Features section
     [[params.features.list]]
         modalID = 1
-        title = "Document versioning"
-        img = "document_versioning.png"
-        description = "Store many versions of the same document, download or revert to a previous version."
+        title = "可定制化首页"
+        img = "homepage.png"
+        description = "只需要很简单的操作就可以把含指定标签的最新文档放到首页，首页同时还具有【每日消息】、【我的收藏】这样的定制特性。"
 
     [[params.features.list]]
         modalID = 2
-        title = "Responsive design"
+        title = "响应式的界面"
         img = "responsive.png"
-        description = "One install, many devices. Mayan EDMS uses responsive design to adjust to different screen sizes and device capabilities, from smartphones and tables to desktop."
+        description = "无论使用手机、平板还是台式机设备进行访问，梅雁EDMS能自适应设备的屏幕大小，并自动调整界面布局以获得最佳用户体验。"
 
     [[params.features.list]]
         modalID = 3
-        title = "Fine grained permissions system"
-        img = "role_permissions.png"
-        description = "There is a permission for every atomic operation performed by users."
+        title = "多文档格式"
+        img = "office_friendly.png"
+        description = "内置对多种文档格式的原生支持，Word,Excel,PowerPoint,PDF等文档都能以所见即所得的形式进行展示。"
 
     [[params.features.list]]
         modalID = 4
-        title = "Retention policies"
+        title = "文档有效期设定"
         img = "retention.png"
-        description = "Retention policies facilitate compliance with local laws or corporate policies when documents need to be disposed of in a timely manner."
+        description = "由于法律法规或者业务需求，某些文档具有特定的时效性，在梅雁EDMS，我们可以方便地指定文档的有效期。"
 
     [[params.features.list]]
         modalID = 5
-        title = "Document linking and referencing"
-        img = "smart_links.png"
-        description = "Smart links are automatic, rule based links between documents for easy cross reference."
+        title = "自定义工作流"
+        img = "workflow.png"
+        description = "自行设定文档可能的状态，指定文档的当前状态，以及从当前状态到达其它状态的规则。工作流使得用户的文档状态可以与业务流程完美匹配。"
 
     [[params.features.list]]
         modalID = 6
-        title = "Document workflows"
-        img = "workflows.png"
-        description = "Determine the current state of a document and to which other states it can be transitioned. Document workflows provide the easiest way to mechanize your current document business processes."
+        title = "完善的权限机制"
+        img = "permissions.png"
+        description = "支持自定义角色，自定义用户组，并基于二者对绝大部分操作功能进行精细的授权。"
 
     [[params.features.list]]
         modalID = 7
-        title = "REST API"
-        img = "rest_api.png"
-        description = "Need to integrate Mayan EDMS as part of an existing infrastructure? A client-less, HTTP, self documenting, REST API is provided out of the box."
+        title = "统一的预览方式"
+        img = "preview.png"
+        description = "无论上传的文档是何种格式，无论是PDF/word/excel/text，梅雁EDMS提供了统一的缩略图形式的预览功能，操作直观方便。"
 
     [[params.features.list]]
         modalID = 8
-        title = "Trash can support"
-        img = "trash_can.png"
-        description = "Avoid accidental document deletion. Documents moved to the trash can be restored if the user has the corresponding permission."
+        title = "与SAP云产品无缝集成"
+        img = "sap_c4c.png"
+        description = "内置与SAP Hybris系列产品的集成，单点登录、UI嵌入、并支持与任意BO做关联显示。也可针对其它厂商的云产品做定制集成。"
 
     [[params.features.list]]
         modalID = 9
-        title = "Web based setup"
+        title = "系统可定制性强"
         img = "setup.png"
-        description = "All functionality is accessible via a permission controlled setup panel."
+        description = "几乎所有的功能都有精细的可定制化选项，用户可以根据需求自定调整。"
 
     # Aside section
     [params.aside]
-        headline = "Ready to try out Mayan EDMS?"
-        text = "There are several ways to install Mayan EDMS, find the one that better suits you."
+        headline = "授权许可"
+        text = ""
 
         [params.aside.button]
-            text = "Documentation"
-            link = "https://mayan.readthedocs.org"
-
-    # Aside section
-    [params.signup]
-        headline = "3- Or better yet, use Mayan EDMS on the cloud!"
-        text = "Sign up for the service announcement mailing list."
+            text = "梅雁EDMS演示系统"
+            link = "http://demo.mayan-edms.cn/"
 
     # Contact section
     [params.contact]
-        headline = "Get In Touch!"
+        headline = "联系方式"
         description = ""
 
         [[params.contact.list]]
-            icon = "fa-twitter"
-            text = "[@MayanEDMS](https://twitter.com/@mayanedms)"
+            icon = "fa-flag"
+            text = "[梅雁@中国](http://www.mayan-edms.cn)"
 
         [[params.contact.list]]
-            icon = "fa-facebook"
-            text = "[MayanEDMS](https://www.facebook.com/MayanEDMS/)"
-
-        [[params.contact.list]]
-            icon = "fa-google-plus"
-            text = "[+Mayan-edms](https://plus.google.com/+Mayan-edms/)"
-
-        [[params.contact.list]]
-            icon = "fa-life-ring"
-            text = "[Mailing List](https://groups.google.com/forum/#!forum/mayan-edms)"
-
-        [[params.contact.list]]
-            icon = "fa-youtube"
-            text = "[+Mayan-edms](https://www.youtube.com/c/+Mayan-edms)"
+            icon = "fa-github"
+            text = "[梅雁@GitHub](http://github.com/twisker/mayan-edms-cn/)"
 
         [[params.contact.list]]
             icon = "fa-globe"
-            text = "[www.mayan-edms.com](http://www.mayan-edms.com)"
+            text = "[梅雁@海外](http://www.mayan-edms.com)"
 
         [[params.contact.list]]
             icon = "fa-envelope"
-            text = "[Mailing list archives @gmane](http://news.gmane.org/gmane.comp.python.django.mayan-edms)"
+            text = "[梅雁@email](mailto://info@mayan-edms.cn)"
 
-        [[params.contact.list]]
-            icon = "fa-envelope"
-            text = "[Mailing list archives @nabble](http://mayan-edms.1003.x6.nabble.com/)"
