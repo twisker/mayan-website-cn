@@ -153,7 +153,8 @@ title = "梅雁EDMS中文官网 - 易而易网络科技"
     # Aside section
     [params.aside]
         headline = "授权许可"
-        text = ""
+        text1 = "我们为你精心准备了基于阿里云的预安装系统，请选择适合你的授权许可。"
+        text2 = "你也可以在我们的演示系统里先行体验（用户名：mayan，密码：guest001）"
 
         [params.aside.button]
             text = "梅雁EDMS演示系统"
