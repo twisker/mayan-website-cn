@@ -41,7 +41,7 @@ title = "梅雁EDMS中文官网 - 易而易网络科技"
     [[menu.main]]
         name = "获取源码"
         identifier = "opensource"
-        url = "https://github.com/twisker/mayan-edms-cn/"
+        url = "https://github.com/MayanEDMS-CN"
 
     [[menu.main]]
         name = "海外总站"
@@ -51,7 +51,7 @@ title = "梅雁EDMS中文官网 - 易而易网络科技"
     # Hero section
     [params.hero]
         # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-        slogan     = "梅映高阁书万卷 \n雁点青天字一行"
+        slogan     = "梅映高阁书万卷<br />雁点青天字一行"
         subtitle   = "世界风行的梅雁文档电子化平台（Mayan-EDMS），从今有了一颗中国心。"
         buttonText = "了解详情"
 
@@ -171,7 +171,7 @@ title = "梅雁EDMS中文官网 - 易而易网络科技"
 
         [[params.contact.list]]
             icon = "fa-github"
-            text = "[梅雁@GitHub](http://github.com/twisker/mayan-edms-cn/)"
+            text = "[梅雁@GitHub](https://github.com/MayanEDMS-CN)"
 
         [[params.contact.list]]
             icon = "fa-globe"
